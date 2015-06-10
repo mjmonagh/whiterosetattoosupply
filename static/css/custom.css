@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 
 .jumbotron:after {
      content:"";
-     background: url("../images/franklin1.jpg");
+     background: url("../images/artist_banner.jpg");
      background-position: 0% 25%;
      background-size: cover;
      background-repeat: no-repeat;
