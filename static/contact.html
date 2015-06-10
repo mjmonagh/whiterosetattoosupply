@@ -68,7 +68,9 @@
 				<div class="text-left">
 				<h2>Contact us:</h2>
 					<center><span id = "message"></span></center>
-					<br><div id = "contactform"><form action="mail.php">
+					<br>
+					<div id = "contactform">
+						<form role="form" method="post" action="contact.php">
         
 				    	<label>Name</label><br>
 				    	<input name="contactName" type = "text" placeholder="Type Here" style = "width:100%" class = "form-control"><br>
@@ -79,9 +81,10 @@
 				    	<label>Message</label><br>
 				    	<textarea name="message" placeholder="Type Here" style = "width:100%" rows = "10" class = "form-control"></textarea><br><br>
 				            
-				    	<input id="submit-btn" name="submit" type="submit" value="Submit" class = "btn btn-default btn-xlarge text-centered">
+				    	<input id="submit-btn" name="submit" type="submit" value="Send" class = "btn btn-default btn-xlarge text-centered">
 				        
-					</form></div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
